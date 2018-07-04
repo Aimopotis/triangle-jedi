@@ -1,0 +1,17 @@
+.btn{
+  background: $primary;
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: block;
+  border-radius: 5px;
+  color: #fff;
+  transition: background 500ms ease;
+  margin-top: 1rem;
+  float: right;
+}
+
+.btn:hover{
+  color: #333;
+  background: $background-hover;
+  
+}

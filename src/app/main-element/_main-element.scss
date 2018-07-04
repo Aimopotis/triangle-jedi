@@ -1,0 +1,84 @@
+main{
+  height: 80%;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.sectionForm{
+  height: 70%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.triangleForm{
+  width: 90%;
+}
+
+input{
+  border: none;
+  border-bottom: 3px solid $secondary;
+  background: $background;
+  padding: 1rem;
+  width: 100%;
+  transition: background 500ms ease, border-bottom 500ms ease;
+}
+
+.lineError{
+  @extend input;
+  border-bottom-color: $error;
+}
+
+input:hover{
+  background: $background-hover;
+}
+
+input:focus{
+  border-bottom-color: $primary;
+  outline: none;
+ 
+}
+.form-group{
+  margin: 1rem auto 0;
+}
+
+.error{
+  margin: 0.5rem 0 1rem;
+  display: block;
+  height: 2rem;
+}
+
+.active{
+  color: $error;
+}
+
+.success{
+  color: $success;
+}
+
+/* Output */
+.sectionOutput{
+  height: 30%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.outputContainer {
+   width: 90%;
+  }
+
+.outputContainer h2{
+  background: $primary-variant;
+  color: $on-primary-variant;
+  padding: 1rem;
+}
+
+#outputBox{
+  margin: 1rem 0;
+  text-align: center;
+  background: $background;
+  padding: 1rem;
+}

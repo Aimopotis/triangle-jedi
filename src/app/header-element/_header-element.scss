@@ -1,0 +1,21 @@
+header{
+  height: 20%;
+  box-shadow: $surface-shadow;
+}
+
+.headerTop{
+  background: $primary;
+  text-align: right;
+  padding: 0.1rem 5%;
+  color: $on-primary;
+}
+
+.headerTitle{
+  width: 100%;
+  background: $primary-variant;
+  color: $on-primary-variant;
+  height: fit-content;
+  display: block;
+  padding: 1rem;
+}
+

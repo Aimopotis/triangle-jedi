@@ -1,0 +1,11 @@
+{
+  "presets":["env"],
+  "plugins": ["transform-class-properties"],
+  "env": {
+    "test": {
+      "plugins": [
+        ["__coverage__", {"ignore": "*.+(spec|stub).*"}]
+      ]
+    }
+  }
+}
