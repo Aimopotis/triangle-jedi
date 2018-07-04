@@ -12,9 +12,9 @@ $ cd triangle-jedi
 ```
 
 ## Use
-**npm start** to start webpack-dev-server for developement
-**npm test** to start karma and Jasmine testing
-**npm run bluild:prod** to create the production dist directory
+* **npm start** to start webpack-dev-server for developement
+* **npm test** to start karma and Jasmine testing
+* **npm run bluild:prod** to create the production dist directory
 
 
 ## Contributing
