@@ -3,9 +3,6 @@ Tell the master Jedi the **value** of each side of a **triangle** and he will te
 It made with **ES6**, **Webpack**, **Karma**, **Jasmine**, **ESLinst** and **Stylint** Enjoy!!
 
 
-## Online 
-Check it online 
-
 ## Installation
 Clone the Github repository by using 
 * [GIT](https://git-scm.com/downloads)
@@ -14,6 +11,10 @@ $ git clone origin https://github.com/Aimopotis/triangle-jedi.git
 $ cd triangle-jedi
 ```
 
+## Use
+**npm start** to start webpack-dev-server for developement
+**npm test** to start karma and Jasmine testing
+**npm run bluild:prod** to create the production dist directory
 
 
 ## Contributing
