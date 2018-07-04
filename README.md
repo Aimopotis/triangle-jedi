@@ -7,7 +7,7 @@ It made with **ES6**, **Webpack**, **Karma**, **Jasmine**, **ESLinst** and **Sty
 Clone the Github repository by using 
 * [GIT](https://git-scm.com/downloads)
 ```sh
-$ git clone origin https://github.com/Aimopotis/triangle-jedi.git
+$ git clone https://github.com/Aimopotis/triangle-jedi.git
 $ cd triangle-jedi
 ```
 
